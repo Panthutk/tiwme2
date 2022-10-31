@@ -1,13 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
-
-function App() {
+import {Sidebar} from './components/Sidebar'
+function App() { 
   return (
     <div className="App">
-      <h1 className="App bg-red-300">
-      
-        Hello world
-      </h1>
+      <Sidebar/>
     </div>
   );
 }
