@@ -67,104 +67,136 @@ export const Sidebar=() =>{
                                     <summary>
                                         Filter
                                     </summary>
-                                        <div className='flex flex-row space-x-6'>
-                                            <div className='flex flex-col '>
-                                                <label for="react-option" class="inline-flex justify-between items-center p-5 w-40   rounded-lg border-2 border-gray-200  dark:hover:text-gray-300   hover:text-gray-600    dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">                           
-                                                    <div class="flex flex-row">
-                                                        
-                                                        <div class="w-full text-lg font-semibold px-2">Grade 10</div>
-                                                    </div>
-                                                </label>
-                                                <label for="react-option" class="inline-flex justify-between items-center p-5 w-40   rounded-lg border-2 border-gray-200  dark:hover:text-gray-300   hover:text-gray-600    dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">                           
-                                                    <div class="flex flex-row">
+                                    <div className='flex flex-row '>
+                                        <div className='flex flex-col'>
+                                            <ul >
+                                                   {/* Grade */}
+                                                    <li>
+                                                        <input type="checkbox" id="react-option1" value="" class="hidden peer" />
+                                                        <label for="react-option1" class="inline-flex  items-center p-5 w-32 text-gray-500 bg-white rounded-lg border-2 border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 peer-checked:border-blue-600 hover:text-gray-600 dark:peer-checked:text-gray-300 peer-checked:text-gray-600 hover:bg-gray-50 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">                           
+                                                            <div class="block">
+                                                                <div class="w-full text-lg font-semibold">Grade 10</div>
+                                                            </div>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <input type="checkbox" id="react-option2" value="" class="hidden peer" />
+                                                        <label for="react-option2" class="inline-flex  items-center p-5 w-32 text-gray-500 bg-white rounded-lg border-2 border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 peer-checked:border-blue-600 hover:text-gray-600 dark:peer-checked:text-gray-300 peer-checked:text-gray-600 hover:bg-gray-50 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">                           
+                                                            <div class="block">
+                                                                <div class="w-full text-lg font-semibold">Grade 11</div>
+                                                            </div>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <input type="checkbox" id="react-option3" value="" class="hidden peer" />
+                                                        <label for="react-option3" class="inline-flex  items-center p-5 w-32 text-gray-500 bg-white rounded-lg border-2 border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 peer-checked:border-blue-600 hover:text-gray-600 dark:peer-checked:text-gray-300 peer-checked:text-gray-600 hover:bg-gray-50 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">                           
+                                                            <div class="block">
+                                                                <div class="w-full text-lg font-semibold">Grade 12</div>
+                                                            </div>
+                                                        </label>
+                                                    </li>
                                                     
-                                                        <div class="w-full text-lg font-semibold px-2">Grade 11</div>
-                                                    </div>
-                                                </label>
-                                                <label for="react-option" class="inline-flex justify-between items-center p-5 w-40   rounded-lg border-2 border-gray-200  dark:hover:text-gray-300   hover:text-gray-600    dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">                           
-                                                    <div class="flex flex-row">
-                                                        
-                                                        <div class="w-full text-lg font-semibold px-2">Grade 12</div>
-                                                    </div>
-                                                </label>
-                                            </div>
-                                            <div className='flex flex-col'>
-                                                <label for="react-option" class="inline-flex justify-between items-center p-5 w-40   rounded-lg border-2 border-gray-200  dark:hover:text-gray-300   hover:text-gray-600    dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">                           
-                                                    <div class="flex flex-row">
-                                                        
-                                                        <div class="w-full text-lg font-semibold px-2">Math</div>
-                                                    </div>
-                                                </label>
-                                                <label for="react-option" class="inline-flex justify-between items-center p-5 w-40   rounded-lg border-2 border-gray-200  dark:hover:text-gray-300   hover:text-gray-600    dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">                           
-                                                    <div class="flex flex-row">
-                                                    
-                                                        <div class="w-full text-lg font-semibold px-2">Social</div>
-                                                    </div>
-                                                </label>
-                                                <label for="react-option" class="inline-flex justify-between items-center p-5 w-40   rounded-lg border-2 border-gray-200  dark:hover:text-gray-300   hover:text-gray-600    dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">                           
-                                                    <div class="flex flex-row">
-                                                        
-                                                        <div class="w-full text-lg font-semibold px-2">History</div>
-                                                    </div>
-                                                </label>
-                                                <label for="react-option" class="inline-flex justify-between items-center p-5 w-40   rounded-lg border-2 border-gray-200  dark:hover:text-gray-300   hover:text-gray-600    dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">                           
-                                                    <div class="flex flex-row">
-                                                        
-                                                        <div class="w-full text-lg font-semibold px-2">Physics</div>
-                                                    </div>
-                                                </label>
-                                                <label for="react-option" class="inline-flex justify-between items-center p-5 w-40   rounded-lg border-2 border-gray-200  dark:hover:text-gray-300   hover:text-gray-600    dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">                           
-                                                    <div class="flex flex-row">
-                                                        
-                                                        <div class="w-full text-lg font-semibold px-2">Project</div>
-                                                    </div>
-                                                </label>
                                                 
-                                            </div>
+                                            </ul>
                                         </div>
+                                        <div className='flex flex-col'>
+                                            <ul >
+                                                    {/* Subject */}
+                                                    <li>
+                                                        <input type="checkbox" id="react-option4" value="" class="hidden peer" />
+                                                        <label for="react-option4" class="inline-flex  items-center p-5 w-32 text-gray-500 bg-white rounded-lg border-2 border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 peer-checked:border-blue-600 hover:text-gray-600 dark:peer-checked:text-gray-300 peer-checked:text-gray-600 hover:bg-gray-50 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">                           
+                                                            <div class="block">
+                                                                <div class="w-full text-lg font-semibold">Math</div>
+                                                            </div>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <input type="checkbox" id="react-option5" value="" class="hidden peer" />
+                                                        <label for="react-option5" class="inline-flex  items-center p-5 w-32 text-gray-500 bg-white rounded-lg border-2 border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 peer-checked:border-blue-600 hover:text-gray-600 dark:peer-checked:text-gray-300 peer-checked:text-gray-600 hover:bg-gray-50 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">                           
+                                                            <div class="block">
+                                                                <div class="w-full text-lg font-semibold">Social</div>
+                                                            </div>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <input type="checkbox" id="react-option6" value="" class="hidden peer" />
+                                                        <label for="react-option6" class="inline-flex  items-center p-5 w-32 text-gray-500 bg-white rounded-lg border-2 border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 peer-checked:border-blue-600 hover:text-gray-600 dark:peer-checked:text-gray-300 peer-checked:text-gray-600 hover:bg-gray-50 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">                           
+                                                            <div class="block">
+                                                                <div class="w-full text-lg font-semibold">History</div>
+                                                            </div>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <input type="checkbox" id="react-option7" value="" class="hidden peer" />
+                                                        <label for="react-option7" class="inline-flex  items-center p-5 w-32 text-gray-500 bg-white rounded-lg border-2 border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 peer-checked:border-blue-600 hover:text-gray-600 dark:peer-checked:text-gray-300 peer-checked:text-gray-600 hover:bg-gray-50 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">                           
+                                                            <div class="block">
+                                                                <div class="w-full text-lg font-semibold">Physics</div>
+                                                            </div>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <input type="checkbox" id="react-option8" value="" class="hidden peer" />
+                                                        <label for="react-option8" class="inline-flex  items-center p-5 w-32 text-gray-500 bg-white rounded-lg border-2 border-gray-200 cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 peer-checked:border-blue-600 hover:text-gray-600 dark:peer-checked:text-gray-300 peer-checked:text-gray-600 hover:bg-gray-50 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">                           
+                                                            <div class="block">
+                                                                <div class="w-full text-lg font-semibold">Project</div>
+                                                            </div>
+                                                        </label>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </div>    
+                                            
+                                    </div>
+                                        
                                 </details>
                                     
                         </div>
                     </div>
                 </div>
+                <div className=''>
                 {/* post */}
-                <details class="open:bg-white white:open:bg-slate-900 open:ring-1  dark:open:ring-white/10 open:shadow-lg p-6 rounded-lg  w-38" open>
-                    <summary className='flex flex-row '>
-                        Post
-                        <AiOutlinePlus className='ml-2 mt-1'/>
-                    </summary>
-                    <ul role="list">
-                    
-                            <li class="group/item hover:bg-slate-100 ...">
-                                <a href='#' className='flex flex-row'>
-                                    <AiFillFolderAdd className='mt-1'/>
-                                    <div className='pl-2'>
-                                        Project
-                                    </div>
-                                </a>
-                                
-                            </li>
-                            <li class="group/item hover:bg-slate-100 ...">
-                                <a href='#' className='flex flex-row'>
-                                    <BsFileEarmarkPost className='mt-1'/>
-                                    <div className='pl-2'>
-                                        Community
-                                    </div>
-                                </a>
-                                
-                            </li>
-                            <li class="group/item hover:bg-slate-100 ...">
-                                <a href='#' className='flex flex-row'>
-                                    <FaTools className='mt-1'/>
-                                    <div className='pl-2'>
-                                        Tools
-                                    </div>
-                                </a>
-                                
-                            </li>
-                    </ul>
-                </details>
-                
+                    <div>
+                        <details class="open:bg-white white:open:bg-slate-900 open:ring-1  dark:open:ring-white/10 open:shadow-lg p-6 rounded-lg  w-38 h-32" open>
+                            <summary className='flex flex-row '>
+                                Post
+                                <AiOutlinePlus className='ml-2 mt-1'/>
+                            </summary>
+                            <ul role="list" >
+                            
+                                    <li class="group/item hover:bg-slate-100 ...">
+                                        <a href='#' className='flex flex-row'>
+                                            <AiFillFolderAdd className='mt-1'/>
+                                            <div className='pl-2'>
+                                                Project
+                                            </div>
+                                        </a>
+                                        
+                                    </li>
+                                    <li class="group/item hover:bg-slate-100 ...">
+                                        <a href='#' className='flex flex-row'>
+                                            <BsFileEarmarkPost className='mt-1'/>
+                                            <div className='pl-2'>
+                                                Community
+                                            </div>
+                                        </a>
+                                        
+                                    </li>
+                                    <li class="group/item hover:bg-slate-100 ...">
+                                        <a href='#' className='flex flex-row'>
+                                            <FaTools className='mt-1'/>
+                                            <div className='pl-2'>
+                                                Tools
+                                            </div>
+                                        </a>
+                                        
+                                    </li>
+                            </ul>
+                        </details>
+                    {/* head */}
+
+
+                    </div>    
+                </div>
             </div>
     );
 }
