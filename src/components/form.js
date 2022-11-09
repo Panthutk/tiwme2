@@ -1,6 +1,6 @@
 export const form = ()=> {
     return(
-         <div className="mt-5">
+         <div>
             <h1>Hello world</h1>
          </div>
      );
