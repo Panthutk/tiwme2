@@ -197,7 +197,9 @@ export const Sidebar=() =>{
                     </div>    
                 </div>
                 {/* Project Detail */}
-                <div className='flex flex-col'>
+                <div className='flex flex-col mt-20'>
+                    <ProjectCard/>
+                    <ProjectCard/>
                     <ProjectCard/>
                 </div>
             </div>
