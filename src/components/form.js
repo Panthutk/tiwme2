@@ -1,7 +1,5 @@
-export const form = ()=> {
+export const Form=()=> {
     return(
-         <div>
             <h1>Hello world</h1>
-         </div>
      );
 } 
