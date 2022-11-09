@@ -1,8 +1,7 @@
-export const Log =() =>{
+export const Log=() =>{
     return (
-        <div>
+         <div className="mt-5">
             <h1>Hello world</h1>
-        </div>
-        
-    )
-}
+         </div>
+     );
+ } 
