@@ -1,6 +1,6 @@
-export const Form=()=> {
+export const Login=()=> {
     return(
-        <div class="max-w-2xl mx-auto">
+        <div class="flex justify-center">
                 <div
                     class="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm p-4 sm:p-6 lg:p-8 dark:bg-gray-800 dark:border-gray-700">
                     <form class="space-y-6" action="#">
@@ -32,12 +32,6 @@ export const Form=()=> {
                                     </div>
                     </form>
                 </div>
-            
-            
-                <p class="mt-5">This card component is part of a larger, open-source library of Tailwind CSS components. Learn more
-                    by going to the official <a class="text-blue-600 hover:underline"
-                        href="#" target="_blank">Flowbite Documentation</a>.
-                </p>
         </div>
      );
 } 

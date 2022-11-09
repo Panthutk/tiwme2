@@ -2,7 +2,7 @@ import axios from 'axios';
 import './App.css';
 
 import {Sidebar} from './components/Sidebar'
-import { Form } from './components/Form'
+import { Login } from './components/Login'
 function App() {
   axios.post('http://165.22.3.172:9999/users', {
     firstName: 'Fred',
@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
       {/* <Sidebar/> */}
-      <Form/>
+      <Login/>
     </div>
   );
 }
